@@ -1,0 +1,17 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+
+platforms:
+  - name: ubuntu-14.04
+    driver:
+      box: ubuntu/trusty64
+      box_url: ubuntu/trusty64
+suites:
+  - name: default
+    run_list:
+      - recipe[resolv4flxnt::default]
+    attributes:
