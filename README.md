@@ -1,4 +1,5 @@
 # resolv4flxnt
 
-TODO: Enter the cookbook description here.
+Cookbook to test resolv4flx.
+Result is dropped at home folder.
 
